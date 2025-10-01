@@ -1,0 +1,25 @@
+1: Restoran Sipariş Takip Sistemi
+
+Senaryo: Bir restoran basit bir sistemle gelen siparişleri takip etmek istiyor.
+
+Adımlar:
+
+Restoranda siparişler array içinde saklanır:
+
+let orders = [
+  { table: 1, meal: "Pizza", price: 50 },
+  { table: 2, meal: "Burger", price: 40 }
+];
+
+
+Yeni sipariş ekleme → push ile.
+
+Yanlış girilen siparişi silme → splice.
+
+Tüm siparişleri for döngüsü ile ekrana yazdırma.
+
+Toplam hesabı bulmak için for döngüsü + if.
+
+Belirli bir masanın siparişini bulmak için for döngüsü + if (orders[i].table === x).
+
+Eğer toplam hesap 200 TL'den fazlaysa → "İndirim uygulanır" mesajı ver.
